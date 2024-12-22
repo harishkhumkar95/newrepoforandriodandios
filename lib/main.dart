@@ -22,11 +22,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'HealWiz',
+      title: 'Instance Disease Analysis',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primarySwatch: Colors.green, // Use a light green theme
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.lightGreen, // Base color
+        ),
         useMaterial3: true,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.lightGreen, // Explicitly set AppBar color
+          foregroundColor: Colors.white, // Set text/icon color for AppBar
+        ),
       ),
       home: StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),

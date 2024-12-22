@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">718171718568-l5gpnhbflb461os68pmk57tiufvv7r4c.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sendme-498a9-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">718171718568</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmHyD_sMGZJsvU6SUmSPkaIaU46fT8XwE</string>
+    <string name="google_app_id" translatable="false">1:718171718568:android:70a14e26dcba2380a4939d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmHyD_sMGZJsvU6SUmSPkaIaU46fT8XwE</string>
+    <string name="google_storage_bucket" translatable="false">sendme-498a9.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sendme-498a9</string>
+</resources>
